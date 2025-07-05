@@ -1,7 +1,7 @@
 # Data Science with Machine Learning COMP4030
 Shreeya Kumbhoje , Amit Kumar & Ashley Hunt
 
-![img](https://github.com/Shriyaak/Hand-Gesture-Recognition-using-ML-Frequency-Analysis/blob/main/hG.jpg)
+![img](https://github.com/Shriyaak/DataScienceProjects/blob/main/HandGestureRecognition/images_HG/hG.jpg)
 
 ## Useful information
 

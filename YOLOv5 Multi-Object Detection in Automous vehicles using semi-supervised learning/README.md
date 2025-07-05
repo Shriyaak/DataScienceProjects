@@ -1,4 +1,4 @@
-![dashboard](https://github.com/Shriyaak/YOLOv5-Object-Detection-for-Autonomous-Vehicles/blob/d9fa0f8061ff9035ba2bfe6c508c3b5f6e213963/yolo.png)
+![dashboard](https://github.com/Shriyaak/DataScienceProjects/blob/d4c1742197073b8d7f8059e2e472d0541fdacf91/YOLOv5%20Multi-Object%20Detection%20in%20Automous%20vehicles%20using%20semi-supervised%20learning/yolo.png)
 
 
 ## Overview: 

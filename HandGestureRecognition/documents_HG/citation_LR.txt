@@ -1,0 +1,62 @@
+[Points:
+1. Afterwards, for each window, features extraction was performed to be utilized in ML algorithms, as they require handcrafted features.[1] 
+2. The classification problems were investigated by both ML and DL approaches[1] 
+3. Support Vector Machine (SVM)[1][3]  
+4. Random Forest (RF)[1]  
+5. K-Nearest Neighbour (KNN) [1] 
+6. Particularly, both DL models and SVM outperformed the KNN and RF.[1] 
+7. CNN[1] 
+8. CNN-LSTM[1] ] 
+
+
+Paper 2: Detecting Medication-Taking Gestures Using Machine Learning and Accelerometer Data Collected via Smartwatch Technology: Instrument Validation Study  
+[Points: 
+1. This study integrated accelerometer data from 4 different human activities [2]
+2. Network training is a process in which a ML algorithm is fed sufficient training data to learn from.[2]  ]
+
+
+Paper3 : Hand gesture recognition using Multiclass Support Vector Machine 
+[Points: 
+1. With the development of technology and computing, computer is becoming more and more important in our day today life.[3] 
+2. Hand gestures can be classified in two categories: static and dynamic.[3][6]   
+3. HMM[3] 
+4. The idea is to extend it to multi-class problem is to decompose an M-class problem into a series of two-class problems(can be used) [3] 
+5. An efficient hand gesture recognition system requires higher class robustness, accuracy and efficiency.[3] ] 
+
+
+Paper4: Hand Gesture recognition using K-means clustering and Support Vector Machine
+[Points:
+1. Hand gestures as media for communication can deliver message to achieve information[4]
+2.  V.N. Vapnik’s SVM has been proved both theoretically and practically to be a successful machine learning model in classification and regression [4] 
+3. Multiclass SVM is an expansion of the binary classification introduced by Vapnik.[4]
+4. Multiclass proposes DDAG strategy for classifying. [4] ]
+
+
+Paper5: Recognition of Space-Time Hand Gestures using Hidden Markov Model 
+[Points: 
+1. As for the recognition of the continuous, connected hand movement patterns, HMM- based segmentation method is introduced.[5] 
+To smooth the raw data that can have noise from the tracker or from the hand movement itself,   the fixed-size window averaging is applied to the sample points. [5]
+Some of the typical pattern recognition approaches like feature-based classification and the artificial neural network doesn’t seem to fit in this problem since they are more appropriate for modeling and recognizing the static pattern. 
+HMM is more natural and effective in extracting and recog­ nizing the spatio-temporally dynamic pattern. ]
+
+Paper6 : Static Hand Gesture Recognition using Convolutional Neural Network with Data  Augmentation. 
+[Points:
+Conventional models for pattern recognition cannot process natural data in raw form [6]
+CNN, a class of deep learning neural network, can extract features on the fly and fully connected layers can be used for classification[6]. 
+The extraction process is tedious and every pos- sible feature may not be extracted. Moreover, the extraction may become human-biased. [6]
+The activation function used in this layer is Rectified Linear Unit (ReLU). ReLU was applied to introduce non-linearity [1][6] 
+The library Keras was used for building the CNN classifier.[1][6] 
+ We can say after this research that CNN is a data driven methodology and data augmentation has a huge effect in deep learning.[6] 
+
+
+Paper7: A Hidden  Markov Model-Based Continuous Gesture Recognition System for Hand Motion Trajectory 
+
+
+Paper8: Static Hand Gesture Recognition using Mixture of Features and SVM classifier 
+
+
+Paper 9: Static hand gesture recognition using an android device 
+[Points:
+To extract the features of air gesture we used statistical technique which is Principal Component Analysis (PCA). 
+Gesture Recognition is a way for machines to understand human body language, thus bridging a gap between machines and humans.]
+

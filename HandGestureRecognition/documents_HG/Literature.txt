@@ -1,0 +1,22 @@
+"The highest performance was achieved using a convolutional neural network with long- short term memory (CNN-LSTM)"
+"The pre-processing step consisted of a fourth-order low-pass Butterworth filtering with a cut-off frequency of 5 Hz. Such frequency was chosen due to the frequency content of the acquired signals, which was below 5–6 Hz, as verified by Fourier power spectrum analysis. The pre-processing also included raw signal standardization: each signal acquired with the MMR sensors was centered to have zero mean and standard deviation equal to one."
+"Concerning ML approaches, inspired by human activity recognition work in the literature, the following classifiers were evaluated: Support Vector Machine (SVM) [19,20], Random Forest (RF) [21] and K-Nearest Neighbour (KNN) [22]."
+"The complete dataset, composed of 22 subjects, was divided into training/validation and test sets using leave-one-subject-out cross validation. As concerns ML methods, the training/validation dataset was split into 5 folds, and grid search-based 5-fold cross validation was used for tuning the hyperparameters. As concerns DL methods, validation was performed on 20% of the training/validation set."
+"In multi-gesture classification, CNN and CNN-LSTM performed better than ML methods, with CNN-LSTM resulting in the highest balanced accuracy"
+"In the binary classification, the highest f1-score and precision values were obtained with CNN"
+Moccia, Sara et al. “Automated Classification of Hand Gestures Using a Wristband and Machine Learning for Possible Application in Pill Intake Monitoring.” Computer methods and programs in biomedicine 219 (2022): 106753–106753. Web.
+
+Odhiambo, Chrisogonas Odero et al. “Detecting Medication-Taking Gestures Using Machine Learning and Accelerometer Data Collected via Smartwatch Technology: Instrument Validation Study.” JMIR human factors 10 (2023): e42714–e42714. Web.
+
+"Support vector machine (SVM) [5,8,9,10] and hidden Markov model (HMM) [11,12,13] are two typical machine learning methods in pattern recognition."
+"SVM usually needs careful feature extraction and selection, as well as other traditional ML algorithms like naïve Bayes (NB), K-nearest neighbors (KNN), and decision tree (DT) [16]."
+"For time sequential signals, recurrent neural networks (RNN) allow information to persist. Thus, we can make full use of the contextual information of the sequence. However, RNN might suffer from a vanishing gradient problem with long data sequences. To solve this problem, Hochreiter et al. designed a special RNN, the long short-term memory (LSTM) network that can learn long dependencies [26]."
+Zhao, Shenglin et al. “Hand Gesture Recognition on a Resource-Limited Interactive Wristband.” Sensors (Basel, Switzerland) 21.17 (2021): 5713. Web.
+
+Siddiqui, Uzma Abid et al. “Wearable-Sensors-Based Platform for Gesture Recognition of Autism Spectrum Disorder Children Using Machine Learning Algorithms.” Sensors (Basel, Switzerland) 21.10 (2021): 3319. Web.
+
+Yu, Yi et al. “Exploration of Chinese Sign Language Recognition Using Wearable Sensors Based on Deep Belief Net.” IEEE journal of biomedical and health informatics 24.5 (2020): 1310–1320. Web.
+
+Han H, Yoon SW. Gyroscope-Based Continuous Human Hand Gesture Recognition for Multi-Modal Wearable Input Device for Human Machine Interaction. Sensors (Basel). 2019 Jun 5;19(11):2562. doi: 10.3390/s19112562. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6603535/
+
+Stancic, I. et al. (2022) ‘Comparison and Evaluation of Machine Learning-Based Classification of Hand Gestures Captured by Inertial Sensors’, Computation, 10(9), p. 159. Available at: https://doi.org/10.3390/computation10090159.

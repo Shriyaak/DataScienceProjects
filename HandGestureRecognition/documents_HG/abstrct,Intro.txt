@@ -1,0 +1,62 @@
+abstract:
+AI is the future and it basically involves the usage of computers to ease out daily human tasks, which makes it crucial for the computer to understand how a human carries out a task. However for the computer to perform accurately it must be trained. ML is the subset of artificial intelligence which focuses on the training of the computer either by using Supervised(labelled data) learning, Unsupervised(unlabelled data), Semi-supervised Learning or Reinforcement Learning.  Our aim here is to train the computer using the labelled data so that it can classify between different hand gestures the human being performs. 
+The data was collected using a phyphox app compatible on smartphones which utilises the accelerometer sensors inside the device. The data has gone through a set of preprocessing techniques like application of a low-pass filter, Fourier transformation and PCA to refine the extracted features given to the model for training. We have deployed ML models like SVM, Random Forest Classifier, XGB, KNN and some Recurrent Neural Network Models like LSTM and GRU looking for a optimum fit model for multi class classification between gestures 1. Drawing a circle, 2. Waving, 3. Gesturing come here, 4. Gesturing go away. 
+The outcome shows a good  __% accuracy for ___ ML model in comparison with other ML models implemented, and the accuracy of __% LSTM(RNN model) and ___% for GRU(RNN model). 
+
+Introduction: 
+Making a computer understand human gesture is a step towards it[3].Gesture recognition pertains to recognizing meaning- ful expressions of motion by a human, involving the hands, arms, face, head, and/or body[8]. With a variety of application across different fields including monitoring activities and vital signs, enhancing gaming experience, and supporting applications in robotics and wearable technology. Our  intent is to use smartphones which is a practically used device to establish  communication possibilities between humans and machines differing from the traditional data collection methods. we further explore the usage of this technology to create accessibility features for individuals with disabilities which could be a potential project within the scope of man machine interaction.
+ In recent years, gesture recognition system has become very popular in the field of research, especially facial and hand gesture recognition system[3] gesture classification for hand movement can be classified into static and dynamic depending on the data acquisition method.  In the past a significant amount of research has been carried out which investigates machine algorithms like Support Vector Machine[1][3] , Random Forest[1] , Hidden Markov Model which analyses data to discover patterns. A  few Deep Learning models like CNN[1][6] and some hybrid models like CNN-LSTM[1] mostly focusing on  image processing, which has now made it a common subject in the domain. However a limited amount of research focuses on using signal data collected as a .dataset(.csv file)  using a normally accessible device among humans today. 
+
+Background: 
+Over the years a significant amount of research has been carried out for activity recognition and for different purposes. Each study differs in the factors it considers during data collection, the types of activities performed, the nature of the dataset (whether static or dynamic[3][6]), and the algorithms used for classifying gestures. As data collection plays an important role, it necessitates the requirement for selecting the right way to  data acquisition. Modern smartphones and smartwatches are equipped with sensors. Gyroscope, accelerometer, magnetometer, temperature, and sound sensors have been used for activity detection[14]. The widespread use of mobile phones globally, along with their extensive capabilities, was considered for their potential to act as remote controllers, enabling disabled individuals to perform various tasks.The data was collected using the Phyphox application compatible on both android and IOS devices and the study integrated accelerometer data from 4 different human activities like[2]. The static time series 3D dataset was then explored for multi class classification. The most commonly adopted classifiers included the k-nearest neighbor (KNN), random forest (RF), multilayer perceptron (MLP), support vector machine (SVM), decision tree, and artificial neural net-work (ANN),CNN, etc.[14]. SVM usually needs careful feature extraction and selection, as well as other traditional ML algorithms like naïve Bayes (NB), K-nearest neighbors (KNN), and decision tree (DT) [16]. HMM is memoryless and unable to use contextual information.[12]. Feature extraction was done using _______________________________________________
+However DL algorithms worked best on raw normalised data. Next, the algorithm selection which depends on the variety of data to be processed . For image based data algorithms like CNN, CNN-LSTM are suggested. SVM[1][3][8] ,  RF[1] were discovered as the most popular ones for gesture classification, the best results in precision-recall-FI (abbr.: P-R-F1), followed by the KNN and LR[13]. The popular among the DL were RNN’s GRU.
+
+Discussion: 
+This study evaluates different ML and DL methods for the effectiveness in Hand Gesture classification, exploring their potential to enhance accessibility for individuals with disabilities. The Gestures inputs analysed were a circle gesture, come here, go away and wave which could be associated with some task the computer would perform as response
+to the gesture. The multi class classifier was examined using ML algorithms like SVM, KNN, RF, XGB with ____ model outperforming the other models.  The DL approaches included GRU and LSTM while LSTM seems to be a better choice GRU was feasible especially given the sequential nature of our data. GRU captured temporal dependencies without the complexity of LSTM cells which made the data training faster. (Result) (talking about the result) due to high dimensional handling capacity the DL models 
+
+
+
+References (used by Shreeya) 
+[1]Sara Moccia, Sarah Solbiati, Mahshad Khornegah, Federica FS Bossi, Enrico G Caiani,
+Automated classification of hand gestures using a wristband and machine learning for possible application in pill intake monitoring,
+Computer Methods and Programs in Biomedicine,
+Volume 219,
+2022,
+106753,
+ISSN 0169-2607,
+https://doi.org/10.1016/j.cmpb.2022.106753.
+(https://www.sciencedirect.com/science/article/pii/S0169260722001390)
+
+[2]Odhiambo CO, Ablonczy L, Wright PJ, Corbett CF, Reichardt S, Valafar H. Detecting Medication-Taking Gestures Using Machine Learning and Accelerometer Data Collected via Smartwatch Technology: Instrument Validation Study. JMIR Hum Factors. 2023 May 4;10:e42714. doi: 10.2196/42714. PMID: 37140971; PMCID: PMC10196892.
+
+[3] HafizurRahman, Md & Afrin, Jinia. (2013). Hand Gesture Recognition using Multiclass Support Vector Machine. International Journal of Computer Applications. 74. 39-43. 10.5120/12852-9367.
+
+[4] Anggi Maharani, Devira & Fakhrurroja, Hanif & Riyanto, Riyanto & Machbub, Carmadi. (2018). Hand gesture recognition using K-means clustering and Support Vector Machine. 1-6. 10.1109/ISCAIE.2018.8405435. 
+
+[5]Yanghee Nam and KwangYun Wohn. 1996. Recognition of space-time hand-gestures using hidden Markov model. In Proceedings of the ACM Symposium on Virtual Reality Software and Technology (VRST '96). Association for Computing Machinery, New York, NY, USA, 51–58. https://doi.org/10.1145/3304181.3304193 
+
+[6] M. Z. Islam, M. S. Hossain, R. ul Islam and K. Andersson, "Static Hand Gesture Recognition using Convolutional Neural Network with Data Augmentation," 2019 Joint 8th International Conference on Informatics, Electronics & Vision (ICIEV) and 2019 3rd International Conference on Imaging, Vision & Pattern Recognition (icIVPR), Spokane, WA, USA, 2019, pp. 324-329, doi: 10.1109/ICIEV.2019.8858563. keywords: {Feature extraction;Gesture recognition;Data models;Shape;Image recognition;Training;Neurons;Convolutional Neural Network;Static hand gestures character recognition;Data augmentation},
+
+[7]D. K. Ghosh and S. Ari, "Static Hand Gesture Recognition Using Mixture of Features and SVM Classifier," 2015 Fifth International Conference on Communication Systems and Network Technologies, Gwalior, India, 2015, pp. 1094-1099, doi: 10.1109/CSNT.2015.18. keywords: {Communication systems;American sign language (ASL) hand alphabet;combined features;localized contour sequences (LCS);principal component;static hand gesture;support vector machine (SVM)},
+
+[8]Mitra, Sushmita & Acharya, Tinku. (2007). Gesture Recognition: A Survey. Systems, Man, and Cybernetics, Part C: Applications and Reviews, IEEE Transactions on. 37. 311 - 324. 10.1109/TSMCC.2007.893280. 
+
+[9]J.Joshi, Tejashri & Kumar, Shiva & Tarapore, Noshir & Mohile, Vivek. (2015). Static Hand Gesture Recognition using an Android Device. International Journal of Computer Applications. 120. 48-53. 10.5120/21356-4348. 
+
+[10]Toro-Ossaba, Alejandro & Jaramillo-Tigreros, Juan & Tejada, Juan & Peña, Alejandro & López-González, Alexandro & Castanho, Rui Alexandre. (2022). LSTM Recurrent Neural Network for Hand Gesture Recognition Using EMG Signals. Applied Sciences. 12. 10.3390/app12199700. 
+
+[11] Z. Yang and X. Zheng, "Hand Gesture Recognition Based on Trajectories Features and Computation-Efficient Reused LSTM Network," in IEEE Sensors Journal, vol. 21, no. 15, pp. 16945-16960, 1 Aug.1, 2021, doi: 10.1109/JSEN.2021.3079564.
+keywords: {Radar;Gesture recognition;Sensors;Trajectory;Chirp;MIMO radar;Feature extraction;Hand gesture recognition;MIMO radar;trajectory extraction;reused LSTM encoder},
+
+[12] Zhao S, Cai H, Li W, Liu Y, Liu C. Hand Gesture Recognition on a Resource-Limited Interactive Wristband. Sensors (Basel). 2021 Aug 25;21(17):5713. doi: 10.3390/s21175713. PMID: 34502604; PMCID: PMC8434577.
+
+[13]Stancic, Ivo & Music, Josip & Grujić, Tamara & Vasić, Mirela & Bonkovic, Mirjana. (2022). Comparison and Evaluation of Machine Learning-Based Classification of Hand Gestures Captured by Inertial Sensors. Computation. 10. 159. 10.3390/computation10090159. 
+
+[14] Siddiqui UA, Ullah F, Iqbal A, Khan A, Ullah R, Paracha S, Shahzad H, Kwak KS. Wearable-Sensors-Based Platform for Gesture Recognition of Autism Spectrum Disorder Children Using Machine Learning Algorithms. Sensors (Basel). 2021 May 11;21(10):3319. doi: 10.3390/s21103319. PMID: 34064750; PMCID: PMC8150794.
+
+
+
+
+
+
